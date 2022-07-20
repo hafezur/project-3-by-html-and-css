@@ -84,3 +84,16 @@ body {
     border-radius: 10px;
     background-color: crimson;
 }
+
+.internal-button {
+    width: 100px;
+    height: 32px;
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    background-color: antiquewhite;
+    padding: 3px;
+    border-radius: 10px;
+}
