@@ -1,0 +1,32 @@
+.background {
+    width: 1000px;
+    height: 646px;
+    background: rgba(4, 48, 105, 0.911);
+    border-radius: 30px;
+}
+
+.back-part-1 {
+    color: azure;
+    padding: 10px;
+}
+
+.font {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.button {
+
+    text-decoration: none;
+
+}
+
+.size {
+    height: 70px;
+    width: 180px;
+}
+
+.background {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
