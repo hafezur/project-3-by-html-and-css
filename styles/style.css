@@ -1,7 +1,24 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+main {
+    background-color: blueviolet;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+}
+
 .background {
     width: 1000px;
     height: 646px;
-    background: rgba(4, 48, 105, 0.911);
+    background: deepskyblue;
     border-radius: 30px;
 }
 
@@ -24,9 +41,46 @@
 .size {
     height: 70px;
     width: 180px;
+    background: yellow;
+    border-radius: 5px;
 }
 
 .background {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+/* First-part-close */
+.align-1 {
+    margin-top: 130px;
+}
+
+.middle-part-1 {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.middle-part-1 {
+    display: grid;
+    justify-content: column;
+    grid-template-columns: center;
+}
+
+.button-1 {
+    width: 252px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    border-radius: 10px;
+}
+
+.button-2 {
+    width: 252px;
+    height: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    border-radius: 10px;
+    background-color: crimson;
 }
